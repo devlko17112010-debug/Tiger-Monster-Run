@@ -1,0 +1,12 @@
+{
+  "name": "tiger-monster-run",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx http-server -c-1 -p 5173 www",
+    "prepare:android": "node tools/prepare-android.js",
+    "cap:add:android": "npx cap add android",
+    "cap:sync": "npx cap sync android",
+    "android": "npx cap open android"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "appId": "com.tigermonsterrun.game",
+  "appName": "Tiger Monster Run",
+  "bundledWebRuntime": false,
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
